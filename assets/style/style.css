@@ -1,0 +1,118 @@
+@font-face {
+    font-family : 'Neucha';
+    font-style : normal;
+    font-weight : 400;
+    src : url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+    }
+    @font-face {
+    font-family : 'Neucha';
+    font-style : italic;
+    font-weight : 400;
+    src : url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+    }
+    body {
+    background-color : #242323;
+    }
+    .top-slider {
+    display : flex;
+    justify-content : center;
+    padding : 20px;
+    font-size : 16px;
+    font-family : 'Neucha', italic;
+    }
+    a:hover {
+    padding : 5px;
+    border : #333333 solid 1px;
+    background-color : rgb(238, 235, 230);
+    color : rgb(149, 196, 240);
+    }
+    a {
+    text-decoration : none;
+    color : #e7e5c3;
+    }
+    .info {
+    padding : 10px;
+    font-size : 16px;
+    font-family : 'Neucha', italic;
+    text-transform : uppercase;
+    display : flex;
+    justify-content : center;
+    background-color : rgb(46, 45, 45);
+    }
+    li {
+    margin : 20px;
+    padding : 20px;
+    display : inline;
+    box-sizing : border-box;
+    }
+    section {
+    display : flex;
+    }
+    h1 {
+    margin-top : 0;
+    text-align : center;
+    font-size : 80px;
+    font-family : 'Neucha', italic;
+    text-transform : uppercase;
+    color : #e7e5c3;
+    }
+    h2 {
+    margin-top : 0;
+    text-align : center;
+    font-size : 50px;
+    font-family : 'Neucha', italic;
+    color : #1d011d;
+    }
+    h3 {
+    margin-top : 0;
+    line-height : normal;
+    font-size : 30px;
+    font-family : 'Neucha', italic;
+    text-transform : uppercase;
+    color : #34375c;
+    align-self : center;
+    }
+    hr {
+    border : #999999 solid 1px;
+    }
+    p {
+    font-size : 16px;
+    font-family : 'Neucha', italic;
+    color : bisque;
+    padding : 20px;
+    }
+    .img {
+    display : flex;
+    flex-wrap : wrap;
+    box-sizing : border-box;
+    background-size : cover;
+    background-image : url(/assets/images/exhibition.jpg);
+    background-repeat : no-repeat;
+    opacity : 0.80;
+    }
+    .exhibit {
+    display : flex;
+    flex-direction : column;
+    background-color : rgb(15, 14, 15);
+    margin : 20px;
+    padding : 20px;
+    max-width : 350px;
+    flex : 1;
+    }
+    .gallery {
+    width : 300px;
+    height : 350px;
+    margin-top : 5px;
+    align-self : center;
+    }
+    .gallery:hover {
+    border : #867575 solid 1px;
+    transform : scale(1.2);
+    }
+    #cat {
+    width : 500px;
+    }
+    #logo {
+    width : 100px;
+    height : 100px;
+    }
